@@ -4,7 +4,9 @@ SAE+Tornado+sqlalchemy的示例代码
 搭建环境
 --------
 
-  $ pip install -r requirements.txt
+```
+  pip install -r requirements.txt
+```
 
 配置MySQL
 ---------
@@ -15,7 +17,9 @@ SAE+Tornado+sqlalchemy的示例代码
 本地调试
 --------
 
-  $ python runserver.py
+```
+  python runserver.py
+```
 
 > 端口8000
 
