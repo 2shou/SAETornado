@@ -5,7 +5,6 @@ import os
 import tornado.wsgi
 
 from settings import cookie_secret
-
 from handler import *
 
 metadata = dict(
