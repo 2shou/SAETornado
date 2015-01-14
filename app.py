@@ -1,6 +1,7 @@
 # coding: utf-8
 
 import os
+import logging
 
 import tornado.wsgi
 
@@ -21,4 +22,5 @@ urls = [
 
 class SAEApplication(tornado.wsgi.WSGIApplication):
     def __init__(self):
+        logging.basicConfig(level=logging.INFO)
         tornado.wsgi.WSGIApplication.__init__(self, urls, **metadata)
